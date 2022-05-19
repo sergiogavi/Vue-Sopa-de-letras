@@ -1,0 +1,50 @@
+<html lang="ca">
+
+<head>
+  <title>Sopa Lletres</title>
+  <meta name="author" content="sergi.grau@fje.edu">
+  <meta charset="UTF-8">
+  
+</head>
+
+<body>
+  
+  <h1>Sopa de letras Game</h1>
+  <div id="app"></div>
+  <script>
+
+    //Guardar datos local storage
+var palabras = [];
+function desar (){ 
+
+var entrada  = document.getElementById("entrada").value;
+
+var nouTamany = palabras.push(entrada);
+/*Guardando los datos en el LocalStorage*/
+localStorage.setItem("Palabra", palabras);
+
+
+}
+
+function mostrar(){    
+                     
+  document.write(palabras).value;
+        
+};
+
+
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="M25_Routing.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="logica.js"></script>
+  <script src="M23_Components.js"></script>
+  <link href="./sopa.css" rel="stylesheet" type="text/css">
+</body>
+
+</html>
+
+
+
+

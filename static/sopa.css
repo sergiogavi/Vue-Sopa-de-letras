@@ -1,0 +1,30 @@
+table {
+    border: 1px solid;
+    position:relative;
+    left:500px;
+}
+
+td {
+    text-align: center;
+    padding: 4px 4px;
+}
+
+#sopa {
+    margin-top: 1em;
+    width: 30em;
+}
+
+
+
+.selected {
+     background-color: #103af5;
+}
+
+.adivinada {
+    background-color:( #000000);
+    color: #26f341;
+}
+
+input{
+    width: 350px;
+}
